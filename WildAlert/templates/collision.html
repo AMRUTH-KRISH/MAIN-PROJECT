@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Collision Detection</title>
+    <meta http-equiv="refresh" content="3">
+</head>
+<body style="text-align:center;">
+
+<h2>Collision Alerts</h2>
+
+<table border="1" cellpadding="10" style="margin:auto;">
+    <tr>
+        <th>Time</th>
+        <th>Animal</th>
+        <th>Vehicle</th>
+        <th>Event</th>
+    </tr>
+
+    {% for e in events %}
+    <tr>
+        <td>{{ e.time }}</td>
+        <td>{{ e.animal }}</td>
+        <td>{{ e.vehicle }}</td>
+        <td>{{ e.event }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<br>
+<a href="/dashboard">Back</a>
+
+</body>
+</html>
