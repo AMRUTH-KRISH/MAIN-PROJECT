@@ -1,11 +1,28 @@
-<h2>Image Detection</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body class="page-container">
+
+<h2 class="section-title">Image Detection</h2>
+
 <form method="POST" enctype="multipart/form-data">
-<input type="file" name="image" required>
-<button type="submit">Detect</button>
+    <input type="file" name="image" required>
+    <button type="submit">Detect Image</button>
 </form>
 
 {% if img %}
-<img src="/{{ img }}" width="700">
+<div class="media-frame">
+    <div class="media-inner">
+        <img src="/{{ img }}">
+    </div>
+</div>
 {% endif %}
 
-<a href="/dashboard">Back</a>
+<a href="/dashboard"><button>Back</button></a>
+
+</body>
+</html>
