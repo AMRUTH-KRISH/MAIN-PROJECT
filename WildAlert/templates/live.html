@@ -1,7 +1,23 @@
-<h2>Live Camera Detection</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Camera Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
 
-<p>Live detection is started manually from backend YOLO script.</p>
+<body class="page-container">
 
-<p>Click below to start live detection.</p>
+<h2 class="section-title">Live Camera Detection</h2>
 
-<a href="http://localhost:5000/dashboard">Back</a>
+<div class="media-frame">
+    <div class="media-inner">
+        <img src="{{ url_for('live_feed') }}">
+    </div>
+</div>
+
+<a href="/dashboard">
+    <button>Back</button>
+</a>
+
+</body>
+</html>
