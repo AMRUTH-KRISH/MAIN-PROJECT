@@ -3,12 +3,14 @@
 <head>
     <title>Collision Detection</title>
     <meta http-equiv="refresh" content="3">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
-<body style="text-align:center;">
 
-<h2>Collision Alerts</h2>
+<body>
 
-<table border="1" cellpadding="10" style="margin:auto;">
+<h2 style="text-align:center;">Collision Alerts</h2>
+
+<table>
     <tr>
         <th>Time</th>
         <th>Animal</th>
@@ -21,13 +23,15 @@
         <td>{{ e.time }}</td>
         <td>{{ e.animal }}</td>
         <td>{{ e.vehicle }}</td>
-        <td>{{ e.event }}</td>
+        <td class="alert">{{ e.event }}</td>
     </tr>
     {% endfor %}
 </table>
 
 <br>
-<a href="/dashboard">Back</a>
+<div style="text-align:center;">
+    <a href="/dashboard">Back</a>
+</div>
 
 </body>
 </html>
