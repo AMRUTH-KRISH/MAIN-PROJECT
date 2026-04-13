@@ -43,7 +43,13 @@ WildAlert is an AI-powered road safety system designed to detect wildlife near r
 ---
 
 ## 📂 Project Structure
-WildAlert/ │── app.py                 # Main Flask application │── model/                 # YOLO model files │── static/                # Uploaded and result images/videos │── templates/             # HTML pages │── esp8266/               # IoT code for alert unit │── requirements.txt       # Python dependencies
+# WildAlert/ │── app.py                 
+# Main Flask application │── model/                 
+# YOLO model files │── static/                
+# Uploaded and result images/videos │── templates/             
+# HTML pages │── esp8266/               
+# IoT code for alert unit │── requirements.txt       
+# Python dependencies
 
 ---
 
