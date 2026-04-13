@@ -66,13 +66,13 @@ python app.py
 
 Run: http://127.0.0.1:5000/
 
-# 📡 MQTT Configuration
+## 📡 MQTT Configuration
 Broker: broker.hivemq.com
 Topics:
 wildalert/test → Roadside alerts
 wildalert/controlroom → Collision logs
 
-# 🔌 ESP8266 Setup
+## 🔌 ESP8266 Setup
 Connect:
 LED → D5
 Buzzer → D7
@@ -80,7 +80,7 @@ LCD (I2C) → SDA, SCL
 Upload Arduino code to ESP8266
 Ensure WiFi & MQTT connection
 
-# 📊 Output
+## 📊 Output
 Real-time detection with bounding boxes
 Collision alerts triggered instantly
 LCD displays messages like:
@@ -88,21 +88,21 @@ STOP! Wildlife Crossing
 Go Slow
 Control room dashboard shows recent events
 
-# 🎯 Applications
+## 🎯 Applications
 Highway safety systems
 Forest and wildlife areas
 Smart transportation systems
 Accident prevention systems
 
-# 🔮 Future Scope
+## 🔮 Future Scope
 Night vision / thermal camera integration
 GPS-based alert tracking
 Mobile app notifications
 Edge AI deployment (low-power devices)
 Advanced collision prediction using tracking
 
-# 👨‍💻 Contributors
+## 👨‍💻 Contributors
 Amruth Krishnan M
 
-# 📄 License
+## 📄 License
 This project is for academic and research purposes.
